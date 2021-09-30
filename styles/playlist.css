@@ -1,0 +1,333 @@
+body,html,h1,h2,h3,a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: var(--background-color);
+    overflow-x: hidden;
+}
+
+
+/* ---------font-families----------- */
+
+@font-face{
+    font-family: 'asap';
+    src: url('../fonts/Asap/Asap-VariableFont_wght.ttf');
+}
+
+@font-face{
+    font-family: 'indie';
+    src: url('../fonts/Indie_Flower/IndieFlower-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'texturina';
+    src: url('../fonts/Texturina/Texturina-VariableFont_opsz\,wght.ttf');
+}
+
+
+/* ------creating variables for different css properties------ */
+
+:root{
+    /* -----variables for color------ */
+
+    --background-color: linear-gradient(90deg,violet,green);
+    --notification-color: rgb(255, 0, 0);
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --ellipsis-color: #a9a9a9;
+    --btn-color-save: #2bc5b4;
+    --btn-color-clear: #e9e9e9;
+    --border-color: rgba(0,0,0,.1);
+    --player-background: linear-gradient(240deg,rgb(71, 32, 121),rgb(34, 155, 54));
+
+    /* ------variables for font weight------- */
+
+    --light-font: 100;
+    --medium-font: 500;
+    --bold-font: 600;
+    --bolder-font: 900; 
+
+
+    /* ------variables for font size-------- */
+
+    --font-size: 1.2rem;
+    --font-size-small: .75em;
+    --font-size-medium: 1rem;
+    --font-size-large: 2rem;
+    --font-size-xlarge: 3rem;
+
+    /* ------variables for display---------- */
+
+    --display-none: none;
+    --cursor: pointer;
+
+    /* ------- variables for font families--------- */
+
+    --font-family-1: asap;
+    --font-family-2: indie;
+    --font-family-3: texturina;
+    --family-1:  proximanova-bold-webfont,Arial,sans-serif;
+
+}
+
+
+/* ----------common styles for the whole page----------- */
+
+
+a{
+    text-decoration: none;
+}
+
+.display-flex-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-flex-column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.head-text{
+    font-family: var(--font-family-3);
+    font-size: var(--font-size);
+    text-transform: capitalize;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+
+/* ----------header styles---------- */
+
+
+#header{
+    width: 100vw;
+    margin: auto;
+    border-bottom: 5px double #afb8b6d9;
+    justify-content: space-evenly;
+}
+
+header>div{
+    box-sizing: border-box;
+    margin: 1.5% 0px 0px;
+}
+
+header img{
+    width: 100%;
+    height: auto;
+}
+
+
+.logo-container{
+    width: 15%;
+}
+
+#logo{
+    padding-left: 10px;
+    width: 40%;
+    min-width: 70px;
+}
+
+#player-name{
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.bold{
+    font-family: 'Kaushan Script', cursive;
+    margin:0px;
+    font-size:20px;
+    transform: rotate(-20deg);
+}
+
+#color1{
+    color:mediumturquoise;
+    font-size: 25px;
+    font-weight: var(--bolder-font);
+}
+
+#color2{
+    color:chocolate;
+    margin-top: -8px;
+    font-weight: var(--bold-font);
+}
+
+.select-item-container{
+    width: 15%;
+    padding: 0% 3% 3% 5%;
+    
+}
+
+.select-item{
+    width: 100%;
+    border: none;
+    background-color: inherit;
+}
+
+/* .select-item:focus{
+    border: none;
+} */
+
+.search-container{
+    width: 50%;
+    justify-content: center;
+}
+
+.search-container img{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    margin-top: 8px;
+}
+
+#search-icon,#mic-icon{
+    height: 40px;
+    width: 10%;
+    text-align: center;
+    position: relative;
+}
+
+#search-icon{
+    left: 80px;
+}
+
+#mic-icon{
+    right: 80px;
+}
+
+input{
+    height: 40px;
+    width: 80%;
+    border: 2px solid darkgrey;
+    border-radius: 0%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0px;
+}
+
+/* input:focus{
+    width: 100%;
+} */
+
+.bell-container{
+    width: 12%;
+    padding-left: 5%;
+}
+
+#bell-icon{
+    width: 35%;
+    min-width: 30px;
+    height: auto;
+}
+
+#count{
+    height: 22%;
+    width: 20%;
+    border-radius: 50%;
+    text-align: center;
+    color: var(--white-color);
+    font-weight: var(--bolder-font);
+    font-size: var(--font-size-small);
+    background-color: var(--notification-color);
+    position: relative;
+    bottom: 35px;
+    left: 18px;
+}
+
+.account-container{
+    width: 8%;
+    padding: 1%;
+    min-width: 60px;
+    align-items: center;
+}
+
+#profile-pic{
+    margin: -22%;
+    text-align: center;
+}
+
+.circle{
+    margin: 0%;
+    height: 45px;
+    width:45px;
+}
+
+#account-name{
+    margin-top: 15px;
+    font-weight: var(--bold-font);
+}
+
+
+@media screen and (max-width: 1271px){
+    #account-name{
+        display: none;
+    }
+
+    .select-item{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #header{
+        height: 130px;
+    }
+    #header,.logo-container{
+        flex-wrap: nowrap;
+    }
+}
+
+
+/* ---------------- main styles start--------------- */
+
+#main-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#detail-info{
+    margin: 0 0 40px;
+    align-items: flex-end;
+}
+
+.images{
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 400px;
+}
+
+.images img{
+    width: 100%;
+    height: 400px;
+}
+
+#detail-info .info{
+    margin: 0;
+    padding: 0 30px;
+    width: calc(100% - 560px);
+    justify-content: center;
+    text-align: initial;
+}
+
+.info .artist-title{
+    order: 0;
+    margin-bottom: 5px;
+}
+
+.title{
+    color: rgba(0,0,0,.9);
+    font-size: 42px;
+    width: calc(100% - 10px);
+    font-family: var(--family-1);
+}
