@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/playlist.css">
+    <title>Document</title>
+</head>
+<body>
+
+     <!-- header content -->
+
+     <header id="header" class="display-flex-row">
+        <div class="logo-container display-flex-row">
+            <div id="logo">
+                <img class="logo-image" src="images/icon.gif" alt="This is the logo of website">
+            </div>
+            <div id="player-name">
+                <p id="color1" class="bold">Music</p>
+                <p id="color2" class="bold">masti</p>
+            </div>
+        </div>
+
+        <div class="select-item-container">
+            <select class="select-item  head-text">
+                <option>Favourite</option>
+                <option>Latest Release</option>
+                <option>Latest English</option>
+                <option>Latest Hindi</option>
+                <option>Devotional</option>
+              </select>
+        </div>
+
+        <div class="search-container display-flex-row">
+            <div id="search-icon">
+                <img src="images/search-icon.png" alt="">
+            </div>
+            <input type="search" name="search" id="search">
+            <div id="mic-icon">
+                <img src="images/mic-icon.png" alt="">
+            </div>
+        </div>
+
+        <div class="bell-container">
+            <div id="bell-icon">
+                <img src="images/bell.png" alt="">
+            </div>
+            <div id="count">0</div>
+        </div>
+
+        <div class="account-container display-flex-column">
+            <div id="profile-pic">
+                <img class="circle" src="images/user.jpg" alt="user image">
+            </div>
+            <div id="account-name">umashankar</div>
+            <div id="account-pop-up"></div>
+        </div>
+    </header> 
+
+    <!-- --------------- main content --------------- -->
+    
+    <main id="main-container" class="display-flex-column">
+
+        <div id="detail-info" class="display-flex-row">
+            <div class="images display-flex-row">
+                <img src="./images/artist-1.jpg" title="Arijit Singh Songs" alt="Arijit">
+            </div>
+            <div class="info display-flex-column">
+                <div class="artist-title">
+                    <h1 class="title">Arijit Singh Songs</h1>
+                </div>
+                <div class="artist-detail display-flex-row">
+                    <span class="description">
+                        1199 Tracks
+                        <small class="separator"></small>
+                        5 Episodes
+                        <small class="separator"></small>
+                        779 Albums
+                    </span>
+                </div>
+                <div class="button-container display-flex-row">
+                    <button class="play-btn" title="Play All">Play All</button>
+                    <button class="favourite-icon"title="Add to favourites">
+                        <svg class="fav" width="19" height="19"  viewBox="0 0 19 19">
+                            <g fill="none" fill-rule="evenodd">
+                                <path class="svg_color" fill-rule="nonzero" d="M9 17.792l-1.208-1.1C3.5 12.8.667 10.225.667 7.083.667 4.508 2.683 2.5 5.25 2.5c1.45 0 2.842.675 3.75 1.733A5.011 5.011 0 0 1 12.75 2.5c2.567 0 4.583 2.008 4.583 4.583 0 3.142-2.833 5.717-7.125 9.609L9 17.792z"></path>
+                            </g>
+                        </svg>
+                    </button>
+                    <button class="share-icon" title="Share">
+                        <svg width="18" height="18" viewBox="0 0 18 18">
+                            <g class="svg_color" fill="#000" fill-rule="nonzero">
+                                <path d="M10.94 3.924c.096.013.187.053.26.116l5.114 4.234c.116.096.183.239.183.389 0 .15-.067.292-.183.389l-5.113 4.234c-.152.124-.362.15-.54.068-.18-.082-.294-.26-.297-.455v-1.847c-.166.005-.19 0-.458.022-.55.045-1.298.137-2.141.322-1.686.37-3.751 1.114-5.417 2.562-.174.148-.425.163-.616.038-.19-.126-.274-.361-.205-.578 1.434-4.387 5.75-6.176 8.837-7.002V4.432c0-.147.062-.287.172-.384.11-.097.257-.143.404-.124zm.447 1.587v1.292c0 .231-.158.434-.383.492-2.512.632-5.88 1.915-7.67 4.726 1.427-.84 2.925-1.338 4.207-1.62.897-.197 1.69-.29 2.28-.338.59-.048.937-.05 1.081-.043.272.014.485.238.485.508v1.286l3.809-3.148-3.809-3.155z" transform=""></path>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="display-flex-column">
+
+        </div>
+
+    </main>
+</body>
+</html>

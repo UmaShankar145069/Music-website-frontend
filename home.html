@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="100"> -->
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+
+    <!-- header content -->
+
+    <header id="header" class="display-flex-row">
+        <div class="logo-container display-flex-row">
+            <div id="logo">
+                <img class="logo-image" src="images/icon.gif" alt="This is the logo of website">
+            </div>
+            <div id="player-name">
+                <p id="color1" class="bold">Music</p>
+                <p id="color2" class="bold">masti</p>
+            </div>
+        </div>
+
+        <div class="select-item-container">
+            <select class="select-item  head-text">
+                <option>Favourite</option>
+                <option>Latest Release</option>
+                <option>Latest English</option>
+                <option>Latest Hindi</option>
+                <option>Devotional</option>
+              </select>
+        </div>
+
+        <div class="search-container display-flex-row">
+            <div id="search-icon">
+                <img src="images/search-icon.png" alt="">
+            </div>
+            <input type="search" name="search" id="search">
+            <div id="mic-icon">
+                <img src="images/mic-icon.png" alt="">
+            </div>
+        </div>
+
+        <div class="bell-container">
+            <div id="bell-icon">
+                <img src="images/bell.png" alt="">
+            </div>
+            <div id="count">0</div>
+        </div>
+
+        <div class="account-container display-flex-column">
+            <div id="profile-pic">
+                <img class="circle" src="images/user.jpg" alt="user image">
+            </div>
+            <div id="account-name">umashankar</div>
+            <div id="account-pop-up"></div>
+        </div>
+    </header> 
+    
+    
+    <!--  -----------main content---------   -->
+
+
+    <main class="display-flex-row">
+
+        <div id="main-content" class="display-flex-row">
+
+            <!-- section for carousel(slide-show) -->
+
+            <section id="section-1">
+                
+                <div class="container">
+                    <div class="carousel">
+                      <div class="carousel__face"></div>
+                      <div class="carousel__face"></div>
+                      <div class="carousel__face"></div>
+                      <div class="carousel__face"></div>
+                      <div class="carousel__face"></div>
+                      <div class="carousel__face"></div>
+                      <div class="carousel__face"></div>
+                      <div class="carousel__face"></div>
+                      <div class="carousel__face"></div>
+                    </div>
+                  </div>
+
+            </section>
+
+            <!-- section for recently played songs -->
+
+            <section id="section-2" class="latest-container">
+
+                <h2 class="head-text margin-common">Recently Played</h2>
+                <div id="recently-played-container" class="display-flex-row">
+                    <div class="display-flex-row">
+                        <a href="#header" class="image-container">
+                            <img src="images/song-1.jpg" alt="">
+                        </a>
+                        <div class="name-and-date">
+                            <p>Param Sundari</p>
+                            <p>Mimi (Original Motion Picture Soundtrack)-2021</p>
+                        </div>
+                        <div class="latest-menu display-flex-column">
+                            <a href="#popup-song-1">
+                                <div class="dot-container">
+                                    <div class="dots"></div>
+                                    <div class="dots"></div>
+                                    <div class="dots"></div>
+                                </div>
+                            </a>
+                            <div id="popup-song-1" class="popup-field popup-latest">
+                                <div>
+                                    <img src="images/play-button.png" alt="icon">
+                                    <a href="#player"><span>Play</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/share.png">
+                                    <a href="" alt="icon"><span>Share</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/add-queue.jpg" alt="icon">
+                                    <a href=""><span>Add to queue</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/download.png">
+                                    <a href="" alt="icon"><span>Download</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/playlist.png" alt="icon">
+                                    <a href=""><span>Add to playlist</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/info.jpg" alt="icon">
+                                    <a href=""><span>Get info</span></a>
+                                </div>
+                                <a href="#just-close">
+                                    <div id="popup-song-close"></div>
+                                </a>
+                            </div>
+                            <div class="text">3 min 20 sec</div>
+                        </div>
+                    </div>
+
+                    <div class="display-flex-row">
+                        <a href="#header" class="image-container">
+                            <img src="images/song-2.jpg" alt="">
+                        </a>
+                        <div class="name-and-date">
+                            <p>Fuljhadi</p>
+                            <p>Fuljhadi-2019</p>
+                        </div>
+                        <div class="latest-menu display-flex-column">
+                            <a href="#popup-song-2">
+                                <div class="dot-container">
+                                    <div class="dots"></div>
+                                    <div class="dots"></div>
+                                    <div class="dots"></div>
+                                </div>
+                            </a>
+                            <div id="popup-song-2" class="popup-field popup-latest">
+                                <div>
+                                    <img src="images/play-button.png" alt="icon">
+                                    <a href="#player"><span>Play</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/share.png">
+                                    <a href="" alt="icon"><span>Share</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/add-queue.jpg" alt="icon">
+                                    <a href=""><span>Add to queue</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/download.png">
+                                    <a href="" alt="icon"><span>Download</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/playlist.png" alt="icon">
+                                    <a href=""><span>Add to playlist</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/info.jpg" alt="icon">
+                                    <a href=""><span>Get info</span></a>
+                                </div>
+                                <a href="#just-close">
+                                    <div id="popup-song-close"></div>
+                                </a>
+                            </div>
+                            <div class="text">3 min 17 sec</div>
+                        </div>
+                    </div>
+
+                    <div class="display-flex-row">
+                        <a href="#header" class="image-container">
+                            <img src="images/song-3.jpg" alt="">
+                        </a>
+                        <div class="name-and-date">
+                            <p>295</p>
+                            <p>Moosetape-2021</p>
+                        </div>
+                        <div class="latest-menu display-flex-column">
+                            <a href="#popup-song-3">
+                                <div class="dot-container">
+                                    <div class="dots"></div>
+                                    <div class="dots"></div>
+                                    <div class="dots"></div>
+                                </div>
+                            </a>
+                            <div id="popup-song-3" class="popup-field popup-latest">
+                                <div>
+                                    <img src="images/play-button.png" alt="icon">
+                                    <a href="#player"><span>Play</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/share.png">
+                                    <a href="" alt="icon"><span>Share</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/add-queue.jpg" alt="icon">
+                                    <a href=""><span>Add to queue</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/download.png">
+                                    <a href="" alt="icon"><span>Download</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/playlist.png" alt="icon">
+                                    <a href=""><span>Add to playlist</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/info.jpg" alt="icon">
+                                    <a href=""><span>Get info</span></a>
+                                </div>
+                                <a href="#just-close">
+                                    <div id="popup-song-close"></div>
+                                </a>
+                            </div>
+                            <div class="text">4 min 31 sec</div>
+                        </div>
+                    </div>
+
+                    <div class="display-flex-row">
+                        <a href="#header" class="image-container">
+                            <img src="images/song-4.jpg" alt="">
+                        </a>
+                        <div class="name-and-date">
+                            <p>Sach Keh Raha Hai</p>
+                            <p>Sach Keh Raha Hai-2021</p>
+                        </div>
+                        <div class="latest-menu display-flex-column">
+                            <a href="#popup-song-4">
+                                <div class="dot-container">
+                                    <div class="dots"></div>
+                                    <div class="dots"></div>
+                                    <div class="dots"></div>
+                                </div>
+                            </a>
+                            <div id="popup-song-4" class="popup-field popup-latest">
+                                <div>
+                                    <img src="images/play-button.png" alt="icon">
+                                    <a href="#player"><span>Play</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/share.png">
+                                    <a href="" alt="icon"><span>Share</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/add-queue.jpg" alt="icon">
+                                    <a href=""><span>Add to queue</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/download.png">
+                                    <a href="" alt="icon"><span>Download</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/playlist.png" alt="icon">
+                                    <a href=""><span>Add to playlist</span></a>
+                                </div>
+                                <div>
+                                    <img src="images/info.jpg" alt="icon">
+                                    <a href=""><span>Get info</span></a>
+                                </div>
+                                <a href="#just-close">
+                                    <div id="popup-song-close"></div>
+                                </a>
+                            </div>
+                            <div class="text">3 min 44 sec</div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- section for latest released songs -->
+
+            <section id="section-3">
+
+                <h2 class="head-text">Latest Releases</h2>
+                <div id="latest-releases" class="latest-song display-flex-row">
+                    <div>
+                        <div class="image-container">
+                            <img src="images/song-1.jpg" alt="Param Sundari" title="Param Sundari">
+                        </div>
+                        <div class="name-text">
+                            <p>Param Sundari</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/song-2.jpg" alt="Fuljhadi" title="Fuljhadi">
+                        </div>
+                        <div class="name-text">
+                            <p>Fuljhadi</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/song-3.jpg" alt="295" title="295">
+                        </div>
+                        <div class="name-text">
+                            <p>295</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/song-4.jpg" alt="Sach Keh Raha Hai" title="Sach Keh Raha Hai">
+                        </div>
+                        <div class="name-text">
+                            <p>Sach Keh Raha Hai</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/song-5.jpg" alt="Tumse Pyaar Hai" title="Tumse Pyaar Hai">
+                        </div>
+                        <div class="name-text">
+                            <p>Tumse Pyaar Hai</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- section for featured artists -->
+
+            <section id="section-4">
+
+                <h2 class="head-text">Featured Artists</h2>
+                <div id="artists" class="latest-song display-flex-row">
+                    <div>
+                        <div class="image-container">
+                            <img src="images/artist-1.jpg" alt="Arijit Singh" title="Arijit Singh">
+                        </div>
+                        <div class="name-text">
+                            <p>Arijit Singh</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/artist-2.jpg" alt="Pritam" title="Pritam">
+                        </div>
+                        <div class="name-text">
+                            <p>Pritam</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/artist-3.jpg" alt="Tanishk Bagchi" title="Tanishk Bagchi">
+                        </div>
+                        <div class="name-text">
+                            <p>Tanishk Bagchi</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/artist-4.jpg" alt="Neha Kakkar" title="Neha Kakkar">
+                        </div>
+                        <div class="name-text">
+                            <p>Neha Kakkar</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/artist-5.jpg" alt="Badshah" title="Badshah">
+                        </div>
+                        <div class="name-text">
+                            <p>Badshah</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- section for radios -->
+
+            <section id="section-5">
+
+                <h2 class="head-text">Radio</h2>
+                <div id="radio" class="latest-song display-flex-row">
+                    <div>
+                        <div class="image-container">
+                            <img src="images/radio-1.jpg" alt="Mirchi Toota Dil" title="Mirchi Toota Dil">
+                        </div>
+                        <div class="name-text">
+                            <p>Mirchi Toota Dil</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/radio-2.jpg" alt="Sukoon Ke Pal" title="Sukoon Ke Pal">
+                        </div>
+                        <div class="name-text">
+                            <p>Sukoon Ke Pal</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/radio-3.jpg" alt="Yo! Punjabi Radio" title="Yo! Punjabi Radio">
+                        </div>
+                        <div class="name-text">
+                            <p>Yo! Punjabi Radio</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/radio-4.jpg" alt="Party Hits (Punjabi)" title="Party Hits (Punjabi)">
+                        </div>
+                        <div class="name-text">
+                            <p>Party Hits (Punjabi)</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/radio-5.jpg" alt="Mirchi Indies Radio" title="Mirchi Indies Radio">
+                        </div>
+                        <div class="name-text">
+                            <p>Mirchi Indies Radio</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- section for popular hindi songs -->
+
+            <section id="section-6">
+
+                <h2 class="head-text">Popular In Hindi</h2>
+                <div id="hindi-song" class="latest-song display-flex-row">
+                    <div>
+                        <div class="image-container">
+                            <img src="images/hin-song-1.jpg" alt="Gal Karke" title="Gal Karke">
+                        </div>
+                        <div class="name-text">
+                            <p>Gal Karke</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/hin-song-2.jpg" alt="Tum Hi Aana" title="Tum Hi Aana">
+                        </div>
+                        <div class="name-text">
+                            <p>Tum Hi Aana</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/hin-song-3.jpg" alt="Shayad" title="Shayad">
+                        </div>
+                        <div class="name-text">
+                            <p>Shayad</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/hin-song-4.jpg" alt="Filhall" title="Filhall">
+                        </div>
+                        <div class="name-text">
+                            <p>Filhall</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/hin-song-5.jpg" alt="Garmi" title="Garmi">
+                        </div>
+                        <div class="name-text">
+                            <p>Garmi</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- section for popular english songs -->
+
+            <section id="section-7">
+
+                <h2 class="head-text">Popular In English</h2>
+                <div id="english-song" class="latest-song display-flex-row">
+                    <div>
+                        <div class="image-container">
+                            <img src="images/eng-song-1.jpg" alt="Beautiful People" title="Beautiful People">
+                        </div>
+                        <div class="name-text">
+                            <p>Beautiful People</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/eng-song-2.jpg" alt="I Can't Get Enough" title="I Can't Get Enough">
+                        </div>
+                        <div class="name-text">
+                            <p>I Can't Get Enough</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/eng-song-3.jpg" alt="Happier" title="Happier">
+                        </div>
+                        <div class="name-text">
+                            <p>Happier</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/eng-song-4.jpg" alt="Here With Me" title="Here With Me">
+                        </div>
+                        <div class="name-text">
+                            <p>Here With Me</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="image-container">
+                            <img src="images/eng-song-5.jpg" alt="I Don't Care" title="I Don't Care">
+                        </div>
+                        <div class="name-text">
+                            <p>I Don't Care</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        
+        </div>
+
+         <!-- aside section for queue -->
+
+        <aside class="aside ">
+
+            <div id="queue" class="display-flex-column">
+                <header id="queue-header">
+                    <div class=" heading-container display-flex-row">
+                        <div class="text-container-1">
+                            <strong class="head-text bolder">Queue</strong>
+                        </div>
+                        <div class="text-container-2 display-flex-row">
+                            <div class="ellipsis-container">
+                                <span class="latest-menu">
+                                    <a href="#popup">
+                                        <img src="./images/ellipsis.png" class="ellipsis-icon">
+                                    </a>
+                                    <div id="popup" class="popup-field popup-latest">
+                                        <div>
+                                            <img src="images/playlist.png" alt="play-icon">
+                                            <a href="#player"><span>Playlists</span></a>
+                                        </div>
+                                        <div>
+                                            <img src="images/add-queue.jpg" alt="favourite-icon">
+                                            <a href=""><span>Favourite Songs</span></a>
+                                        </div>
+                                        <div>
+                                            <img src="images/info.jpg" alt="info-icon">
+                                            <a href=""><span>More info</span></a>
+                                        </div>
+                                        <a href="#just-close">
+                                            <div id="popup-close"></div>
+                                        </a>
+                                    </div>
+                                </span>
+                            </div>
+                            <div class="btn">
+                                <span class="head-text save-btn">Save</span>
+                            </div>
+                            <div class="btn">
+                                <span class="head-text clear-btn">Clear</span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <hr class="hr-rule">
+            </div>
+
+            <!-- code for queue body part -->
+            
+            <div class="innerbody">
+                <ul class="display-flex-column">
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-1.jpg" alt="Param Sundari" title="Param Sundari">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Param Sundari</strong>
+                            <small class="name-and-date">Mimi (Original Motion Picture Soundtrack)</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:20</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-2.jpg" alt="Fuljhadi" title="Fuljhadi">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Fuljhadi</strong>
+                            <small class="name-and-date">Fuljhadi-2019</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:17</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-3.jpg" alt="295" title="295">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">295</strong>
+                            <small class="name-and-date">Moosetape-2021</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">04:31</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-4.jpg" alt="Sach Keh Raha Hai" title="Sach Keh Raha Hai">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Sach Keh Raha Hai</strong>
+                            <small class="name-and-date">Sach Keh Raha Hai-2021</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:44</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-1.jpg" alt="Param Sundari" title="Param Sundari">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Param Sundari</strong>
+                            <small class="name-and-date">Mimi (Original Motion Picture Soundtrack)</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:20</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-2.jpg" alt="Fuljhadi" title="Fuljhadi">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Fuljhadi</strong>
+                            <small class="name-and-date">Fuljhadi-2019</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:17</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-3.jpg" alt="295" title="295">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">295</strong>
+                            <small class="name-and-date">Moosetape-2021</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">04:31</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-4.jpg" alt="Sach Keh Raha Hai" title="Sach Keh Raha Hai">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Sach Keh Raha Hai</strong>
+                            <small class="name-and-date">Sach Keh Raha Hai-2021</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:44</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-1.jpg" alt="Param Sundari" title="Param Sundari">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Param Sundari</strong>
+                            <small class="name-and-date">Mimi (Original Motion Picture Soundtrack)</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:20</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-2.jpg" alt="Fuljhadi" title="Fuljhadi">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Fuljhadi</strong>
+                            <small class="name-and-date">Fuljhadi-2019</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:17</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-3.jpg" alt="295" title="295">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">295</strong>
+                            <small class="name-and-date">Moosetape-2021</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">04:31</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-4.jpg" alt="Sach Keh Raha Hai" title="Sach Keh Raha Hai">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Sach Keh Raha Hai</strong>
+                            <small class="name-and-date">Sach Keh Raha Hai-2021</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:44</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-1.jpg" alt="Param Sundari" title="Param Sundari">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Param Sundari</strong>
+                            <small class="name-and-date">Mimi (Original Motion Picture Soundtrack)</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:20</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-2.jpg" alt="Fuljhadi" title="Fuljhadi">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Fuljhadi</strong>
+                            <small class="name-and-date">Fuljhadi-2019</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:17</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-3.jpg" alt="295" title="295">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">295</strong>
+                            <small class="name-and-date">Moosetape-2021</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">04:31</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-4.jpg" alt="Sach Keh Raha Hai" title="Sach Keh Raha Hai">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Sach Keh Raha Hai</strong>
+                            <small class="name-and-date">Sach Keh Raha Hai-2021</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:44</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-1.jpg" alt="Param Sundari" title="Param Sundari">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Param Sundari</strong>
+                            <small class="name-and-date">Mimi (Original Motion Picture Soundtrack)</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:20</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-2.jpg" alt="Fuljhadi" title="Fuljhadi">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Fuljhadi</strong>
+                            <small class="name-and-date">Fuljhadi-2019</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:17</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-3.jpg" alt="295" title="295">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">295</strong>
+                            <small class="name-and-date">Moosetape-2021</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">04:31</span>
+                    </li>
+
+                    <li class="list-items display-flex-row">
+                        <a title="Param Sundari" href="" class="img-link">
+                            <div class="image-container resize-image">
+                                <img src="./images/song-4.jpg" alt="Sach Keh Raha Hai" title="Sach Keh Raha Hai">
+                            </div>
+                        </a>
+                        <div class="song-description display-flex-column">
+                            <strong class="name-and-date">Sach Keh Raha Hai</strong>
+                            <small class="name-and-date">Sach Keh Raha Hai-2021</small>
+                        </div>
+                        <button title="More Options" class="v_dots">
+                            <svg class="threedots_svg display-flex-column" width="24" height="24" viewBox="0 0 24 24">
+                                <g class="svg-color" fill="#000" transform="translate(10 5)">
+                                    <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                                    <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                                </g>
+                            </svg>
+                        </button>
+                        <span title="Duration" class="_d display-flex-row">03:44</span>
+                    </li>
+                </ul>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <!-- -----------Audio player setup starts here------------ -->
+
+    <section id="player" class="display-flex-row">
+
+        <div id="song-detail" class="list-items display-flex-row">
+            <div class="resize-image image-container">
+                <a href="" class="img-link">
+                    <img src="images/song-1.jpg" alt="Param Sundari" title="Param Sundari">
+                </a>
+            </div>
+            <div class="_txt song-description display-flex-column">
+                <strong class="name-and-date">
+                    <a href="" title="Param Sundari">Param Sundari</a>
+                </strong>
+                <small class="name-and-date">
+                    <a href="" title="Mimi (Original Motion Picture Soundtrack)">Mimi (Original Motion Picture Soundtrack)</a>
+                </small>
+            </div>
+            <button class="icon" title="Add to favorites">
+                <svg class="fav" width="18" height="18" viewBox="0 0 19 19">
+                    <g fill="none" fill-rule="evenodd">
+                        <path class="svg-color" fill-rule="nonzero" d="M9 17.792l-1.208-1.1C3.5 12.8.667 10.225.667 7.083.667 4.508 2.683 2.5 5.25 2.5c1.45 0 2.842.675 3.75 1.733A5.011 5.011 0 0 1 12.75 2.5c2.567 0 4.583 2.008 4.583 4.583 0 3.142-2.833 5.717-7.125 9.609L9 17.792z"></path>
+                    </g>
+                </svg>
+            </button>
+            <button class="icon" title="More options" data-position="fixed">
+                <svg class="threedot" width="20" height="20" viewBox="0 0 24 24">
+                    <g class="svg-color" fill="#000" transform="translate(10 5)">
+                        <circle cx="1.5" cy="1.5" r="1.5"></circle>
+                        <circle cx="1.5" cy="7.5" r="1.5"></circle>
+                        <circle cx="1.5" cy="13.5" r="1.5"></circle>
+                    </g>
+                </svg>
+            </button>
+        </div>
+
+        <div id="player-control" class="middle display-flex-row">
+            <div class="time display-flex-row">
+                <span class="_s">00:00</span>
+                <span class="sepr">/</span>
+                <span class="_e">00:00</span>
+            </div>
+            <button title=Repeat class="repeat same-background">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <path class="svg_color" fill="#000" fill-rule="evenodd" d="M18.5 13.024V18H8.302v2L5 17.532l3.302-2.46V17H17.5v-3.976h1zM16.698 4L20 6.468l-3.302 2.46V7H7.5v3.976h-1V6h10.198V4z"></path>
+                </svg>
+            </button>
+            <button title="Previous-song" class="prev same-background">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <g class="svg_color" fill="#000" transform="translate(-655 -2658) translate(87 2624)">
+                        <g transform="translate(520 29) rotate(-180 32.714 12.5)">
+                            <path d="M5.187 2.955L12.588 12.834 -2.215 12.834z" transform="rotate(90 5.187 7.895)"></path>
+                            <rect width="1.482" height="14.803" x="9.632" y=".74" rx=".741"></rect>
+                        </g>
+                    </g>
+                </svg>
+            </button>
+            <button title="Play" class="play same-background">
+                <svg width="13" height="14" viewBox="0 0 16 24">
+                    <path class="svg_color" fill-rule="evenodd" d="M0 0v24l20-12z"></path>
+                </svg>
+            </button>
+            <button title="Next Song" class="next same-background">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <g class="svg_color" fill="#000" transform="translate(-655 -2658) translate(87 2624)">
+                        <g transform="translate(520 29) rotate(-180 32.714 12.5)">
+                            <path d="M5.187 2.955L12.588 12.834 -2.215 12.834z" transform="rotate(90 5.187 7.895)"></path>
+                            <rect width="1.482" height="14.803" x="9.632" y=".74" rx=".741"></rect>
+                        </g>
+                    </g>
+                </svg>
+            </button>
+            <button title="Shuffle" class="shuffle same-background">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <g fill="none" fill-rule="evenodd">
+                        <path class="svg_color" fill="#000" d="M19 5.163l-.645 4.36-1.552-1.552L5.626 19.15l-.62-.62L16.186 7.352l-1.55-1.55L19 5.163zm-4.602 8.386l2.443 2.443 1.514-1.514.64 4.365-4.36-.644 1.588-1.588-2.445-2.443.62-.62zM5.628 4.85l5.064 5.065-.62.62L5.008 5.47l.62-.62z"></path>
+                    </g>
+                </svg>
+            </button>
+        </div>
+
+        <div class="right display-flex-row">
+            <div class="_a">
+                <div class="volume">
+                    <a title="Volume" class="button" href="#volume-popup">
+                        <svg width="24" height="24" viewBox="0 0 24 24">
+                            <g class="svg_color" fill="#000" fill-rule="evenodd">
+                                <path d="M9.148.045c-.163-.074-.358-.054-.499.051L4.066 3.43H.47C.21 3.43 0 3.622 0 3.86v4.284c0 .237.21.429.47.429h3.596l4.583 3.334c.084.06.186.093.292.094.072-.002.142-.017.207-.043.162-.072.264-.222.264-.386V.431c0-.164-.102-.314-.264-.386zM8.471 10.68L4.527 7.81c-.083-.06-.186-.094-.292-.095H.941V4.287h3.294c.106-.001.209-.034.292-.094l3.944-2.871v9.358zM12.01.062c-.145-.08-.325-.083-.474-.009-.148.075-.24.215-.244.369-.004.154.083.298.228.377 2.419 1.32 3.539 2.974 3.539 5.202 0 2.228-1.12 3.882-3.539 5.202-.22.125-.291.387-.16.591.088.126.24.203.405.206.086.002.17-.02.244-.06C14.692 10.475 16 8.572 16 6.001c0-2.57-1.308-4.473-3.99-5.939z" transform="translate(4 6)"></path>
+                                <path d="M11.595 8.572h.17c.134 0 .261-.052.348-.146.692-.649 1.074-1.52 1.063-2.425.011-.904-.37-1.776-1.063-2.425-.122-.143-.329-.202-.518-.146-.19.07-.311.242-.3.429v4.284c-.011.187.11.36.3.429z" transform="translate(4 6)"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    <div id="volume-popup" class="vol-wrap">
+                        <div class="inner display-flex-column">
+                            <input class="volume-slider" title="Volume" type="range" step="0.01" min="0" max="100" id="volume">
+                            <div class="Timeline" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="_b">
+                <a class="song-quality" title="Song Quality" href="#audio-popup">
+                    <strong>Audio: High</strong>
+                </a>
+                <div id="audio-popup" class="audio-setter">
+                    <strong>Audio Quality</strong>
+                    <div class="list display-flex-column">
+                        <a class="upgrade" href="" target="_blank">Upgrade for HD</a>
+                        <label class="cust-radio display-flex-row">
+                            <small>High</small>
+                            <input type="radio" name="audQuality">
+                        </label>
+                        <label class="cust-radio display-flex-row">
+                            <small>Medium</small>
+                            <input type="radio" name="audQuality">
+                        </label>
+                        <label class="cust-radio display-flex-row">
+                            <small>Low</small>
+                            <input type="radio" name="audQuality">
+                        </label>
+                    </div>
+                    <a href="#just-close">
+                        <div id="audio-popup-close">+</div>
+                    </a>
+                </div>
+            </div>
+            <div class="next-song display-flex-column">
+                <small class="text name-and-date">Up Next</small>
+                <strong class="text name-and-date">
+                    295<span> | </span>Moosetape
+                </strong>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
